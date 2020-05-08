@@ -2148,6 +2148,9 @@ vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
+vendor/firmware/msadp
+vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+vendor/firmware/wlan/qca_cld/wlan_mac.bin
 
 # GPS
 etc/permissions/com.qti.location.sdk.xml
@@ -2267,12 +2270,14 @@ vendor/lib/libbccQTI.so
 vendor/lib/libC2D2.so
 vendor/lib/libc2d30_bltlib.so
 vendor/lib/libCB.so
+vendor/lib/libEGL_adreno.so
 vendor/lib/libgsl.so
 vendor/lib/libhdr_tm.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libOpenCL.so
 vendor/lib/libpvr.so
+vendor/lib/libq3dtools_adreno.so
 vendor/lib/libqseed3.so
 vendor/lib/libRSDriver_adreno.so
 vendor/lib/librs_adreno.so
@@ -2294,12 +2299,14 @@ vendor/lib64/libbccQTI.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libCB.so
+vendor/lib64/libEGL_adreno.so
 vendor/lib64/libgsl.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libpvr.so
+vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libqseed3.so
 vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/librs_adreno.so
@@ -3058,11 +3065,15 @@ vendor/bin/wigignpt
 # Misc
 -vendor/app/CACertService/CACertService.apk
 -vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
+vendor/app/QDMA-UI/lib/arm64/libvndfwk_detect_jni.qti.so
+vendor/app/QDMA/lib/arm64/libvndfwk_detect_jni.qti.so
 -vendor/app/SSGTelemetryService/SSGTelemetryService.apk
 -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/adpl
 vendor/bin/athdiag
+vendor/bin/bc
 vendor/bin/cplay
+vendor/bin/devmem
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
 vendor/bin/diag_klog
@@ -3073,14 +3084,22 @@ vendor/bin/e_loop
 vendor/bin/fmconfig
 vendor/bin/fmfactorytest
 vendor/bin/fmfactorytestserver
+vendor/bin/fsync
 vendor/bin/ftmdaemon
 vendor/bin/ftmtest
+vendor/bin/getconf
 vendor/bin/hal_proxy_daemon
 vendor/bin/hw/android.hardware.atrace@1.0-service
 vendor/bin/hw/vendor.ims.airtrigger@1.0-service
 vendor/bin/hw/vendor.ims.airtrigger@1.1-service
 vendor/bin/hw/vendor.ims.glovemode@1.0-service
 vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
+vendor/bin/i2cdetect
+vendor/bin/i2cdump
+vendor/bin/i2cget
+vendor/bin/i2cset
+vendor/bin/iconv
+vendor/bin/install
 vendor/bin/ipacm-diag
 vendor/bin/KmInstallKeybox
 vendor/bin/mm-qjpeg-dec-test
@@ -3088,6 +3107,10 @@ vendor/bin/mm-qjpeg-enc-test
 vendor/bin/mm-qomx-idec-test
 vendor/bin/mm-qomx-ienc-test
 vendor/bin/myftm
+vendor/bin/nc
+vendor/bin/netcat
+vendor/bin/nproc
+vendor/bin/nsenter
 vendor/bin/pktlogconf
 vendor/bin/PktRspTest
 vendor/bin/qdmastatsd
@@ -3101,7 +3124,11 @@ vendor/bin/StoreKeybox
 vendor/bin/tbaseLoader
 vendor/bin/test_diag
 vendor/bin/test_module_pproc
+vendor/bin/unlink
+vendor/bin/unshare
+vendor/bin/uuidgen
 vendor/bin/vendor_cmd_tool
+vendor/bin/watch
 vendor/bin/wdsdaemon
 vendor/bin/wifilearner
 vendor/bin/wigighalsvc
